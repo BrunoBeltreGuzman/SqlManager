@@ -2,7 +2,9 @@
 
 Sql Manager
 Execute all kinds of queries using a specific database.
+
 ![Image](https://github.com/BrunoBeltreGuzman/SqlManager/blob/master/Screenshot1.png)
+
 It is a system that supports any type of Sql (Structured Query Language) query using a specific database.
 
 Functioning:
@@ -13,6 +15,7 @@ Select:
 public void select (String query) {…}
 It receives a String type parametron which contains the query that you want to execute, this method is 
 the one used to execute select type query, that is, they return results which are displayed in a Jtable.
+
 Update:
 public void update (String query) {…}
 This also receives a parameter of type String which contains the query that you want to execute, this 
